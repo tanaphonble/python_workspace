@@ -1,0 +1,17 @@
+op rate                   : 6301 [READ:6301]
+partition rate            : 6301 [READ:6301]
+row rate                  : 6301 [READ:6301]
+latency mean              : 40.1 [READ:40.1]
+latency median            : 37.7 [READ:37.7]
+latency 95th percentile   : 76.5 [READ:76.5]
+latency 99th percentile   : 100.7 [READ:100.7]
+latency 99.9th percentile : 183.1 [READ:183.1]
+latency max               : 421.8 [READ:421.8]
+Total partitions          : 100000 [READ:100000]
+Total errors              : 0 [READ:0]
+total gc count            : 11
+total gc mb               : 1091
+total gc time (s)         : 0
+avg gc time(ms)           : 18
+stdev gc time(ms)         : 6
+Total operation time      : 00:00:15

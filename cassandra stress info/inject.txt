@@ -1,0 +1,52 @@
+
+USE [Cassandra]
+GO
+
+INSERT INTO [dbo].[cassandra-stress]
+           ([op_rate]
+           ,[partition_rate]
+           ,[row_rate]
+           ,[latency_mean]
+           ,[latency_median]
+           ,[latency_95th_percentile]
+           ,[latency_99th_percentile]
+           ,[latency_99.9th_percentile]
+           ,[latency_max]
+           ,[Total_partitions]
+           ,[Total_errors]
+           ,[total_gc_count]
+           ,[total_gc_mb]
+           ,[total_gc_time_s]
+           ,[avg_gc_time_ms]
+           ,[stdev_gc_time_ms]
+           ,[Total_operation_time]
+           ,[w_or_r]
+           ,[nodes]
+           ,[threads])
+     VALUES
+           ( 6301 
+           , 6301 
+           , 6301 
+           , 40.1 
+           , 37.7 
+           , 76.5 
+           , 100.7 
+           , 183.1 
+           , 421.8 
+           , 100000 
+           , 0 
+           , 11
+
+           , 1091
+
+           , 0
+
+           , 18
+
+           , 6
+
+           ,'00:00:15'
+           ,'read'
+           ,3
+           ,250)
+GO
